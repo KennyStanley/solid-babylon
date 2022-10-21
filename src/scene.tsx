@@ -1,4 +1,5 @@
 import * as BABYLON from '@babylonjs/core'
+import '@babylonjs/loaders/glTF'
 import { createSignal } from 'solid-js'
 
 // Create a Solid.js signal for the scene to share with the entire app
