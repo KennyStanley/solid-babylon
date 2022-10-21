@@ -6,6 +6,7 @@ import { getScene } from '../scene'
 export const Ground: Component = () => {
   createEffect(() => {
     console.log('Ground.tsx: createEffect')
+
     const scene = getScene()
 
     // Our built-in 'ground' shape. Params: name, width, depth, subdivs, scene

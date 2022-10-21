@@ -6,6 +6,7 @@ import { getScene } from '../scene'
 export const Sphere: Component = () => {
   createEffect(() => {
     console.log('Sphere.tsx: createEffect')
+
     const scene = getScene()
 
     // Our built-in 'sphere' shape. Params: name, subdivs, size, scene

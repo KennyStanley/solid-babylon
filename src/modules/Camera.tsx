@@ -6,6 +6,7 @@ import { getScene } from '../scene'
 export const Camera: Component = () => {
   createEffect(() => {
     console.log('Camera.tsx: createEffect')
+
     const scene = getScene()
 
     // This creates and positions a free camera (non-mesh)

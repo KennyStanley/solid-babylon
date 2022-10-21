@@ -6,6 +6,7 @@ import { getScene } from '../scene'
 export const Light: Component = () => {
   createEffect(() => {
     console.log('Light.tsx: createEffect')
+
     const scene = getScene()
 
     // This creates a light, aiming 0,1,0 - to the sky (non-mesh)
