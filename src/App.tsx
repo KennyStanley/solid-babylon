@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
 
-import { Camera, Light, Ground, Sphere } from './modules'
+import { Camera, Light, Ground, Sphere, Model } from './modules'
 import { Header } from './components'
 
 const App: Component = () => {
@@ -19,6 +19,7 @@ const App: Component = () => {
       <Light />
       <Ground />
       <Sphere />
+      <Model />
       {/* ----- DOM UI COMPONENTS 👇 ----- */}
       <Header />
     </>
