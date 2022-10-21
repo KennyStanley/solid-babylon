@@ -24,7 +24,7 @@ export const Camera: Component = () => {
     onCleanup(() => {
       console.log('Camera.tsx: onCleanup')
 
-      if (camera) camera.dispose()
+      camera.dispose()
     })
   })
 
