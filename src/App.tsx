@@ -6,10 +6,10 @@ import { Header } from './components'
 const App: Component = () => {
   return (
     <>
-      {/* --- BABYLON MODULES ---
+      {/* ----- BABYLON MODULES 👇 -----
        * aka "Solid Components with BabylonJS side-effects that can return null or DOM UI elements"
        *
-       * Use getScene() to get the current scene.
+       * Use getScene() and setScene() to access the BabylonJS scene.
        * Each module is responsible for creating and disposing of its own resources.
        * This can be done by using onMount and onCleanup, however, it is
        * recommended to use createEffect and onCleanup instead. This will ensure that
@@ -19,9 +19,8 @@ const App: Component = () => {
       <Light />
       <Ground />
       <Sphere />
-      {/* --- DOM UI COMPONENTS --- */}
+      {/* ----- DOM UI COMPONENTS 👇 ----- */}
       <Header />
-      {/* ----------------------- */}
     </>
   )
 }
